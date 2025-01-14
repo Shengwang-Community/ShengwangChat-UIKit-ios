@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0523A1622D1E46880087BC8D /* RedPackageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523A15C2D1E46880087BC8D /* RedPackageCell.swift */; };
+		0523A1632D1E46880087BC8D /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523A15E2D1E46880087BC8D /* MusicCell.swift */; };
+		0523A1642D1E46880087BC8D /* CustomMessageListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523A15F2D1E46880087BC8D /* CustomMessageListController.swift */; };
+		0523A1652D1E46880087BC8D /* GiftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523A15D2D1E46880087BC8D /* GiftCell.swift */; };
+		0523A1662D1E46880087BC8D /* MineMessageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523A1602D1E46880087BC8D /* MineMessageEntity.swift */; };
+		0523A1672D1E46880087BC8D /* MineConversationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523A1612D1E46880087BC8D /* MineConversationInfo.swift */; };
+		0523A1682D1E46880087BC8D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523A1572D1E46880087BC8D /* LoginViewController.swift */; };
+		0523A1692D1E46880087BC8D /* HueSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523A15A2D1E46880087BC8D /* HueSettingViewController.swift */; };
+		0523A16A2D1E46880087BC8D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523A1562D1E46880087BC8D /* SettingViewController.swift */; };
+		0523A16B2D1E46880087BC8D /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523A1592D1E46880087BC8D /* OptionsViewController.swift */; };
+		0523A16C2D1E46880087BC8D /* CustomConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523A15B2D1E46880087BC8D /* CustomConversationViewController.swift */; };
+		0523A16D2D1E46880087BC8D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523A1582D1E46880087BC8D /* MainViewController.swift */; };
+		0523A1732D1E482E0087BC8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0523A1722D1E482E0087BC8D /* Main.storyboard */; };
+		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
+		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
+		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		EB8FA1729B96B636EFD3C2C1 /* Pods_ShengwangChatUIKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30B0112F1B173A1351A15B7 /* Pods_ShengwangChatUIKit_Example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0523A1562D1E46880087BC8D /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		0523A1572D1E46880087BC8D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0523A1582D1E46880087BC8D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0523A1592D1E46880087BC8D /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		0523A15A2D1E46880087BC8D /* HueSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueSettingViewController.swift; sourceTree = "<group>"; };
+		0523A15B2D1E46880087BC8D /* CustomConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomConversationViewController.swift; sourceTree = "<group>"; };
+		0523A15C2D1E46880087BC8D /* RedPackageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedPackageCell.swift; sourceTree = "<group>"; };
+		0523A15D2D1E46880087BC8D /* GiftCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCell.swift; sourceTree = "<group>"; };
+		0523A15E2D1E46880087BC8D /* MusicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCell.swift; sourceTree = "<group>"; };
+		0523A15F2D1E46880087BC8D /* CustomMessageListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessageListController.swift; sourceTree = "<group>"; };
+		0523A1602D1E46880087BC8D /* MineMessageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineMessageEntity.swift; sourceTree = "<group>"; };
+		0523A1612D1E46880087BC8D /* MineConversationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineConversationInfo.swift; sourceTree = "<group>"; };
+		0523A1722D1E482E0087BC8D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		34ED9F973DB3B0FC3EB4B9DD /* ShengwangChatUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ShengwangChatUIKit.podspec; path = ../ShengwangChatUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		58DB9C699757D1DCBF1D9983 /* Pods-ShengwangChatUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShengwangChatUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ShengwangChatUIKit_Tests/Pods-ShengwangChatUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* ShengwangChatUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShengwangChatUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6F389636E200146980908D89 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7560BE9DEC0B60DCDA8FE31C /* Pods-ShengwangChatUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShengwangChatUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-ShengwangChatUIKit_Example/Pods-ShengwangChatUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A51548043A461255DC99C37D /* Pods-ShengwangChatUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShengwangChatUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-ShengwangChatUIKit_Example/Pods-ShengwangChatUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B30B0112F1B173A1351A15B7 /* Pods_ShengwangChatUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShengwangChatUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5F716CD5C9B749312DDA43 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F863E869B57615E6D42F2C0B /* Pods_ShengwangChatUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShengwangChatUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0172620D46406B306F9C41 /* Pods-ShengwangChatUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShengwangChatUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-ShengwangChatUIKit_Tests/Pods-ShengwangChatUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607FACCD1AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8FA1729B96B636EFD3C2C1 /* Pods_ShengwangChatUIKit_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		607FACC71AFB9204008FA782 = {
+			isa = PBXGroup;
+			children = (
+				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				607FACD21AFB9204008FA782 /* Example for ShengwangChatUIKit */,
+				607FACD11AFB9204008FA782 /* Products */,
+				95D42695D6A88E7644FF4A96 /* Pods */,
+				B63AAB0EF49A17B879E81E7E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		607FACD11AFB9204008FA782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD01AFB9204008FA782 /* ShengwangChatUIKit_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607FACD21AFB9204008FA782 /* Example for ShengwangChatUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				0523A1562D1E46880087BC8D /* SettingViewController.swift */,
+				0523A1722D1E482E0087BC8D /* Main.storyboard */,
+				0523A1572D1E46880087BC8D /* LoginViewController.swift */,
+				0523A1582D1E46880087BC8D /* MainViewController.swift */,
+				0523A1592D1E46880087BC8D /* OptionsViewController.swift */,
+				0523A15A2D1E46880087BC8D /* HueSettingViewController.swift */,
+				0523A15B2D1E46880087BC8D /* CustomConversationViewController.swift */,
+				0523A15C2D1E46880087BC8D /* RedPackageCell.swift */,
+				0523A15D2D1E46880087BC8D /* GiftCell.swift */,
+				0523A15E2D1E46880087BC8D /* MusicCell.swift */,
+				0523A15F2D1E46880087BC8D /* CustomMessageListController.swift */,
+				0523A1602D1E46880087BC8D /* MineMessageEntity.swift */,
+				0523A1612D1E46880087BC8D /* MineConversationInfo.swift */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACD31AFB9204008FA782 /* Supporting Files */,
+			);
+			name = "Example for ShengwangChatUIKit";
+			path = ShengwangChatUIKit;
+			sourceTree = "<group>";
+		};
+		607FACD31AFB9204008FA782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD41AFB9204008FA782 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				34ED9F973DB3B0FC3EB4B9DD /* ShengwangChatUIKit.podspec */,
+				6F389636E200146980908D89 /* README.md */,
+				EE5F716CD5C9B749312DDA43 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		95D42695D6A88E7644FF4A96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A51548043A461255DC99C37D /* Pods-ShengwangChatUIKit_Example.debug.xcconfig */,
+				7560BE9DEC0B60DCDA8FE31C /* Pods-ShengwangChatUIKit_Example.release.xcconfig */,
+				58DB9C699757D1DCBF1D9983 /* Pods-ShengwangChatUIKit_Tests.debug.xcconfig */,
+				FE0172620D46406B306F9C41 /* Pods-ShengwangChatUIKit_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B63AAB0EF49A17B879E81E7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B30B0112F1B173A1351A15B7 /* Pods_ShengwangChatUIKit_Example.framework */,
+				F863E869B57615E6D42F2C0B /* Pods_ShengwangChatUIKit_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		607FACCF1AFB9204008FA782 /* ShengwangChatUIKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ShengwangChatUIKit_Example" */;
+			buildPhases = (
+				8AE8E9463C22D54208BDEB79 /* [CP] Check Pods Manifest.lock */,
+				607FACCC1AFB9204008FA782 /* Sources */,
+				607FACCD1AFB9204008FA782 /* Frameworks */,
+				607FACCE1AFB9204008FA782 /* Resources */,
+				DC359D8E4F87FA4DEE8450C9 /* [CP] Embed Pods Frameworks */,
+				FDD66D8C4974B3C7746C8E15 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShengwangChatUIKit_Example;
+			productName = ShengwangChatUIKit;
+			productReference = 607FACD01AFB9204008FA782 /* ShengwangChatUIKit_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607FACC81AFB9204008FA782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CocoaPods;
+				TargetAttributes = {
+					607FACCF1AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JC854K845H;
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "ShengwangChatUIKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 607FACC71AFB9204008FA782;
+			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607FACCF1AFB9204008FA782 /* ShengwangChatUIKit_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607FACCE1AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0523A1732D1E482E0087BC8D /* Main.storyboard in Resources */,
+				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8AE8E9463C22D54208BDEB79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShengwangChatUIKit_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC359D8E4F87FA4DEE8450C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShengwangChatUIKit_Example/Pods-ShengwangChatUIKit_Example-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraInfra_iOS/aosl.framework/aosl",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Agora_Chat_iOS/AgoraChat.framework/AgoraChat",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/aosl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraChat.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShengwangChatUIKit_Example/Pods-ShengwangChatUIKit_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDD66D8C4974B3C7746C8E15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShengwangChatUIKit_Example/Pods-ShengwangChatUIKit_Example-resources.sh",
+				"${PODS_ROOT}/../../Sources/EaseChatUIKit/Classes/UI/Resources/EaseChatResource.bundle",
+				"${PODS_ROOT}/../../Sources/EaseChatUIKit/Classes/UI/Resources/PrivacyInfo.xcprivacy",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EaseChatResource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PrivacyInfo.xcprivacy",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShengwangChatUIKit_Example/Pods-ShengwangChatUIKit_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607FACCC1AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0523A1622D1E46880087BC8D /* RedPackageCell.swift in Sources */,
+				0523A1632D1E46880087BC8D /* MusicCell.swift in Sources */,
+				0523A1642D1E46880087BC8D /* CustomMessageListController.swift in Sources */,
+				0523A1652D1E46880087BC8D /* GiftCell.swift in Sources */,
+				0523A1662D1E46880087BC8D /* MineMessageEntity.swift in Sources */,
+				0523A1672D1E46880087BC8D /* MineConversationInfo.swift in Sources */,
+				0523A1682D1E46880087BC8D /* LoginViewController.swift in Sources */,
+				0523A1692D1E46880087BC8D /* HueSettingViewController.swift in Sources */,
+				0523A16A2D1E46880087BC8D /* SettingViewController.swift in Sources */,
+				0523A16B2D1E46880087BC8D /* OptionsViewController.swift in Sources */,
+				0523A16C2D1E46880087BC8D /* CustomConversationViewController.swift in Sources */,
+				0523A16D2D1E46880087BC8D /* MainViewController.swift in Sources */,
+				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607FACDF1AFB9204008FA782 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		607FACED1AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		607FACEE1AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607FACF01AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A51548043A461255DC99C37D /* Pods-ShengwangChatUIKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JC854K845H;
+				INFOPLIST_FILE = ShengwangChatUIKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		607FACF11AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7560BE9DEC0B60DCDA8FE31C /* Pods-ShengwangChatUIKit_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JC854K845H;
+				INFOPLIST_FILE = ShengwangChatUIKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "ShengwangChatUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACED1AFB9204008FA782 /* Debug */,
+				607FACEE1AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ShengwangChatUIKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF01AFB9204008FA782 /* Debug */,
+				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
+}
