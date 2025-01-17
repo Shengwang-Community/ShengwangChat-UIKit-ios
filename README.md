@@ -104,13 +104,13 @@ Classes
 ```
 # 运行示例项目
 
-- [注册AppId](https://docs.agora.io/en/agora-chat/get-started/enable?platform=android#get-chat-project-information)
+- [注册AppId](https://im.shengwang.cn/docs/sdk/ios/enable_im.html)
 - 在Appdelegate.swift 中找到
 ```Swift
 let option = ChatOptions(appId: <#AppId#>)
 ```
 将注册的AppId填入其中。
-- 如果想要自定义的头像昵称显示信息，在LoginViewController.swift中找到loginAction方法后填入您要显示的当前用户id对应的昵称头像`profile.nickname` `profile.avatarURL`信息即可，然后运行项目即可，出现登录界面后需要您去创建用户以及获取用户token // 。 [使用控制台生成的临时Token登录](https://docs.agora.io/en/agora-chat/get-started/enable?platform=android#get-chat-project-information)
+- 如果想要自定义的头像昵称显示信息，在LoginViewController.swift中找到loginAction方法后填入您要显示的当前用户id对应的昵称头像`profile.nickname` `profile.avatarURL`信息即可，然后运行项目即可，出现登录界面后需要您去创建用户以及获取用户token // 。 [使用控制台生成的临时Token登录](https://im.shengwang.cn/docs/sdk/ios/enable_im.html)
 
 
 # 快速开始
@@ -147,7 +147,7 @@ class AppDelegate：UIResponder，UIApplicationDelegate {
          // 您可以在应用程序加载时或使用之前初始化 ShengwangChatUIKit。
          // 需要传入App Id。
          // 获取App Id，请访问
-         // https://docs.agora.io/en/agora-chat/get-started/enable?platform=android#get-chat-project-information
+         // https://im.shengwang.cn/docs/sdk/ios/enable_im.html
          let error = ChatUIKitClient.shared.setup(appId: "AppId")
      }
 }
@@ -177,7 +177,7 @@ public final class YourAppUser: NSObject, ChatUserProfileProtocol {
 // token生成参见快速开始中登录步骤中链接。
 // 需要从您的应用服务器获取token。 您也可以使用控制台生成的临时Token登录。
 // 在控制台生成用户和临时用户 token，请参见
-// https://docs.agora.io/en/agora-chat/get-started/enable?platform=android#get-chat-project-information。
+// https://im.shengwang.cn/docs/sdk/ios/enable_im.html
   ChatUIKitClient.shared.login(user: YourAppUser(), token: ExampleRequiredConfig.chatToken) { error in 
  }
 ```
