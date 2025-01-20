@@ -9,7 +9,7 @@ import UIKit
 
 @objcMembers open class ChatHistoryViewController: UIViewController {
     
-    public private(set) var message = ChatMessage(conversationID: "", body: ChatMessageBody(), ext: nil)
+    public private(set) var message = ChatMessage(conversationID: "", body: ChatTextMessageBody(text: ""), ext: nil)
     
     public private(set) var messages = [MessageEntity]()
     
