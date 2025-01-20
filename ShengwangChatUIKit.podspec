@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
     s.source_files = [ 'Sources/EaseChatUIKit/Classes/**/*.{h,swift}' ]
     #  s.private_header_files = ['Sources/EaseChatUIKit/Classes/UI/Core/Foundation/third-party/**/*']
     s.resources = ['Sources/EaseChatUIKit/Classes/UI/**/*.bundle','Sources/EaseChatUIKit/Classes/UI/**/*.xcprivacy']
-    s.dependency 'Agora_Chat_iOS','>= 1.3.1'
+    s.dependency 'ShengwangChat_iOS','>= 1.3.2'
     s.static_framework = true
     
     s.swift_version = '5.0'
