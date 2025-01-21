@@ -31,7 +31,7 @@ class OptionsViewController: UIViewController {
     
     
     lazy var switchCellStyle: UIButton = {
-        UIButton(type: .custom).frame(CGRect(x: ScreenWidth/2.0-100, y: self.alertStyleSegment.frame.maxY+150, width: 200, height: 40)).textColor(.white, .normal).backgroundColor(UIColor.theme.primaryColor6).cornerRadius(.small).title(".all", .normal).title("ContentStyle", .normal).font(.systemFont(ofSize: 16, weight: .semibold))
+        UIButton(type: .custom).frame(CGRect(x: ScreenWidth/2.0-100, y: self.alertStyleSegment.frame.maxY+80, width: 200, height: 40)).textColor(.white, .normal).backgroundColor(UIColor.theme.primaryColor6).cornerRadius(.small).title(".all", .normal).title("ContentStyle", .normal).font(.systemFont(ofSize: 16, weight: .semibold))
     }()
     override func viewDidLoad() {
         super.viewDidLoad()
