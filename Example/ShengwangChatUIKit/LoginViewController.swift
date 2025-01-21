@@ -1,6 +1,6 @@
 //
 //  LoginViewController.swift
-//  AgoraChatEThreeExample
+//  ShengwangChatUIKit
 //
 //  Created by 朱继超 on 2022/4/20.
 //
