@@ -3,7 +3,6 @@
 //  AgoraChat-Demo
 //
 //  Created by 朱继超 on 2023/7/25.
-//  Copyright © 2023 easemob. All rights reserved.
 //
 
 import UIKit
