@@ -584,26 +584,26 @@ extension MessageListView: UITableViewDelegate,UITableViewDataSource {
             let towards: BubbleTowards = message.direction.rawValue == 0 ? .right:.left
             switch message.body.type {
             case .text:
-                return self.getMessageCell(cellClass: ComponentsRegister.shared.ChatTextMessageCell, towards: towards, identifier: "EaseChatUIKit.ChatTextMessageCell")
+                return self.getMessageCell(cellClass: ComponentsRegister.shared.ChatTextMessageCell, towards: towards, identifier: "ShengwangChatUIKit.ChatTextMessageCell")
             case .image:
-                return self.getMessageCell(cellClass: ComponentsRegister.shared.ChatImageMessageCell, towards: towards, identifier: "EaseChatUIKit.ChatImageMessageCell")
+                return self.getMessageCell(cellClass: ComponentsRegister.shared.ChatImageMessageCell, towards: towards, identifier: "ShengwangChatUIKit.ChatImageMessageCell")
             case .video:
-                return self.getMessageCell(cellClass: ComponentsRegister.shared.ChatVideoMessageCell, towards: towards, identifier: "EaseChatUIKit.ChatVideoMessageCell")
+                return self.getMessageCell(cellClass: ComponentsRegister.shared.ChatVideoMessageCell, towards: towards, identifier: "ShengwangChatUIKit.ChatVideoMessageCell")
             case .voice:
-                return self.getMessageCell(cellClass: ComponentsRegister.shared.ChatAudioMessageCell, towards: towards, identifier: "EaseChatUIKit.ChatAudioMessageCell")
+                return self.getMessageCell(cellClass: ComponentsRegister.shared.ChatAudioMessageCell, towards: towards, identifier: "ShengwangChatUIKit.ChatAudioMessageCell")
             case .file:
-                return self.getMessageCell(cellClass: ComponentsRegister.shared.ChatFileMessageCell, towards: towards, identifier: "EaseChatUIKit.ChatFileMessageCell")
+                return self.getMessageCell(cellClass: ComponentsRegister.shared.ChatFileMessageCell, towards: towards, identifier: "ShengwangChatUIKit.ChatFileMessageCell")
             case .combine:
-                return self.getMessageCell(cellClass: ComponentsRegister.shared.ChatCombineCell, towards: towards, identifier: "EaseChatUIKit.ChatCombineCell")
+                return self.getMessageCell(cellClass: ComponentsRegister.shared.ChatCombineCell, towards: towards, identifier: "ShengwangChatUIKit.ChatCombineCell")
             case .location:
-                return self.getMessageCell(cellClass: ComponentsRegister.shared.ChatLocationCell, towards: towards, identifier: "EaseChatUIKit.ChatLocationCell")
+                return self.getMessageCell(cellClass: ComponentsRegister.shared.ChatLocationCell, towards: towards, identifier: "ShengwangChatUIKit.ChatLocationCell")
             case .custom:
                 if let body = message.body as? ChatCustomMessageBody {
                     switch body.event {
                     case EaseChatUIKit_user_card_message:
-                        return self.getMessageCell(cellClass: ComponentsRegister.shared.ChatContactMessageCell, towards: towards, identifier: "EaseChatUIKit.ChatContactMessageCell")
+                        return self.getMessageCell(cellClass: ComponentsRegister.shared.ChatContactMessageCell, towards: towards, identifier: "ShengwangChatUIKit.ChatContactMessageCell")
                     case EaseChatUIKit_alert_message:
-                        return self.getMessageCell(cellClass: ComponentsRegister.shared.ChatAlertCell, towards: towards, identifier: "EaseChatUIKit.ChatAlertCell")
+                        return self.getMessageCell(cellClass: ComponentsRegister.shared.ChatAlertCell, towards: towards, identifier: "ShengwangChatUIKit.ChatAlertCell")
                     default:
                         if let cellClass = ComponentsRegister.shared.customCellMaps[body.event] {
                             let identifier = String(describing: body.event)
